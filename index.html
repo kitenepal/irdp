@@ -4,26 +4,88 @@
 	<title>IRDP | Sindhuli, Dhungrebas</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
   <link rel="stylesheet" href="stylesheets/main.css">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+     <!--navbar inverse -->
+    <nav class="navbar-inverse md--navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">IRDP<br><span>Sindhuli, Dhugrebas</span></a>
+        </div>
+    
+        <div class="collapse navbar-collapse" id="navbar-collapse-3">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Goals</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Programs 1</a></li>
+                  <li><a href="#">Programs 2</a></li>
+                  <li><a href="#">Programs 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Members</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
 
-<div class="site-pusher">
-  <header class="header">
-    <a href="#" class="header__icon" id="header__icon"></a>
-    <a href="#" class="header__logo">Logo</a>
-    <nav class="menu">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Blog</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-</div>
+    <!-- slider -->
+    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example" data-slide-to="1"></li>
+        <li data-target="#carousel-example" data-slide-to="2"></li>
+      </ol>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <div class="carousel-inner">
+        <div class="item active">
+          <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+          <div class="carousel-caption">
+            <h3>Meow</h3>
+            <p>Just Kitten Around</p>
+          </div>
+        </div>
+        <div class="item">
+          <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+          <div class="carousel-caption">
+            <h3>Meow</h3>
+            <p>Just Kitten Around</p>
+          </div>
+        </div>
+        <div class="item">
+          <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+          <div class="carousel-caption">
+            <h3>Meow</h3>
+            <p>Just Kitten Around</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
 
 </body>
 </html>
