@@ -1,28 +1,28 @@
-/* line 1, ../sass/module/_nav.scss */
+/* line 1, ../sass/_module/_nav.scss */
 .md--navbar {
   background-color: #00796B;
   border-color: #00796B;
 }
 
-/* line 6, ../sass/module/_nav.scss */
+/* line 6, ../sass/_module/_nav.scss */
 .navbar-brand {
   line-height: 15px;
   font-size: 25px;
   padding: 10px 15px;
 }
-/* line 10, ../sass/module/_nav.scss */
+/* line 10, ../sass/_module/_nav.scss */
 .navbar-brand span {
   font-size: 0.6em;
 }
 
-/* line 1, ../sass/module/about.scss */
+/* line 1, ../sass/_module/_about.scss */
 .about {
   position: relative;
   z-index: -1;
   background-color: #E3E7E8;
 }
 
-/* line 7, ../sass/module/about.scss */
+/* line 7, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
   padding: 65px 0px;
@@ -31,17 +31,12 @@
   z-index: -1;
 }
 
-/* line 15, ../sass/module/about.scss */
+/* line 15, ../sass/_module/_about.scss */
 .skew-rev {
   transform: skew(0deg, -3deg);
 }
 
-/* line 20, ../sass/module/about.scss */
+/* line 20, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
-}
-
-/* line 24, ../sass/module/about.scss */
-.hawa {
-  height: 500px;
 }
