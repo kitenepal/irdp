@@ -1,0 +1,26 @@
+.about{
+	position: relative;
+	z-index: -1;
+	background-color: $secondary-color;
+}
+
+.skewed{
+	background-color: $primary-color;
+	padding: 65px 0px;
+	transform: skew(0deg, 3deg) translateY(-50px);
+	position: relative;
+	z-index: -1;
+}
+
+.skew-rev{
+	transform: skew(0deg, -3deg);
+}
+
+
+.no-skew{
+	margin-top: -50px;
+}
+
+.hawa{
+	height: 500px;
+}
