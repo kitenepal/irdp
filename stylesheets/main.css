@@ -1,19 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 /* line 1, ../sass/_module/_nav.scss */
 .md--navbar {
-  background-color: #00796B;
-  border-color: #00796B;
+  color: #fff !important;
+  background-color: #00796B !important;
+  border-color: #00796B !important;
 }
 
-/* line 6, ../sass/_module/_nav.scss */
+/* line 7, ../sass/_module/_nav.scss */
 .navbar-brand {
-  line-height: 15px;
-  font-size: 25px;
-  padding: 10px 15px;
+  line-height: 15px !important;
+  font-size: 25px !important;
+  padding: 10px 15px !important;
 }
-/* line 10, ../sass/_module/_nav.scss */
+/* line 11, ../sass/_module/_nav.scss */
 .navbar-brand span {
-  font-size: 0.6em;
+  font-size: 0.6em !important;
 }
 
 /* line 1, ../sass/_module/_about.scss */
