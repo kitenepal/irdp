@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 /* line 1, ../sass/_module/_nav.scss */
 .md--navbar {
   background-color: #00796B;
@@ -39,4 +40,9 @@
 /* line 20, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
+}
+
+/* line 1, ../sass/_module/_members.scss */
+.member h1 {
+  font-family: "Bree Serif", serif;
 }
