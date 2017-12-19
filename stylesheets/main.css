@@ -46,3 +46,8 @@
 .member h1 {
   font-family: "Bree Serif", serif;
 }
+
+/* line 5, ../sass/_module/_members.scss */
+.member h3 {
+  font-family: "Bree Serif", serif;
+}
