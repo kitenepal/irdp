@@ -52,3 +52,29 @@
 .member h3 {
   font-family: "Bree Serif", serif;
 }
+
+/* line 1, ../sass/_module/_goal.scss */
+.ourGoal {
+  background-color: #1b2122;
+  color: #fff;
+}
+/* line 5, ../sass/_module/_goal.scss */
+.ourGoal__wrap {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+/* line 9, ../sass/_module/_goal.scss */
+.ourGoal__contents {
+  margin-top: 70px;
+}
+/* line 12, ../sass/_module/_goal.scss */
+.ourGoal span {
+  background-color: #00796B;
+  padding: 30px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+/* line 18, ../sass/_module/_goal.scss */
+.ourGoal h1 {
+  font-family: "Bree Serif", serif;
+}

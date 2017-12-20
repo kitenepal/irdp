@@ -1,0 +1,22 @@
+.ourGoal{
+	background-color: $darkblue;
+	color: $white;
+
+	&__wrap{
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+	&__contents{
+		margin-top: 70px;
+	}
+	span{
+		background-color: $primary-color;
+		padding: 30px;
+		border-radius: 50%;
+		font-size: 30px;
+	}
+	h1{
+		font-family: $font-primary;
+	}
+}
+
