@@ -17,7 +17,7 @@
 			transition: 0.3s;
 			&:hover{
 				border-left: 4px solid $dark-primary;
-			padding-left: 10px;
+				padding-left: 10px;
 		}
 	}
 }
@@ -26,7 +26,7 @@
 	font-family: $font-primary;
 }
 
-.contact h3{
+.contact h4{
 	font-family: $font-primary;
 	padding-bottom: 10px;
 	border-bottom: 2px solid $primary-color;
