@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 /* line 1, ../sass/_module/_nav.scss */
 .md--navbar {
   color: #fff !important;
@@ -68,7 +69,7 @@
   margin-top: 70px;
 }
 /* line 12, ../sass/_module/_goal.scss */
-.ourGoal span {
+.ourGoal .logo-small {
   background-color: #00796B;
   padding: 30px;
   border-radius: 50%;
@@ -77,4 +78,126 @@
 /* line 18, ../sass/_module/_goal.scss */
 .ourGoal h1 {
   font-family: "Bree Serif", serif;
+}
+
+/* line 1, ../sass/_module/_contact.scss */
+.contact {
+  background-color: #1b2122;
+  color: #fff;
+}
+/* line 7, ../sass/_module/_contact.scss */
+.contact__sitemap {
+  padding: 0px;
+}
+/* line 10, ../sass/_module/_contact.scss */
+.contact__sitemap li {
+  list-style: none;
+  padding: 0px;
+}
+/* line 14, ../sass/_module/_contact.scss */
+.contact__sitemap a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 18, ../sass/_module/_contact.scss */
+.contact__sitemap a:hover {
+  border-left: 4px solid #004c40;
+  padding-left: 10px;
+}
+
+/* line 25, ../sass/_module/_contact.scss */
+.contact h1 {
+  font-family: "Bree Serif", serif;
+}
+
+/* line 29, ../sass/_module/_contact.scss */
+.contact h3 {
+  font-family: "Bree Serif", serif;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #00796B;
+}
+
+/* line 38, ../sass/_module/_contact.scss */
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+  width: 250px;
+  height: 100px;
+}
+
+/* line 45, ../sass/_module/_contact.scss */
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  float: left;
+}
+
+/* line 51, ../sass/_module/_contact.scss */
+.circle {
+  padding: 10px 10px;
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  border: solid 1px;
+  transition: 0.5s;
+}
+
+/* line 62, ../sass/_module/_contact.scss */
+.fa-facebook {
+  background-color: #3b5897;
+  color: white;
+  border-color: #3b5897;
+}
+
+/* line 68, ../sass/_module/_contact.scss */
+.fa-facebook:hover {
+  background-color: #0064ff;
+}
+
+/* line 72, ../sass/_module/_contact.scss */
+.fa-twitter {
+  color: #33ccff;
+  border-color: #33ccff;
+}
+
+/* line 77, ../sass/_module/_contact.scss */
+.fa-twitter:hover {
+  background-color: #33ccff;
+}
+
+/* line 81, ../sass/_module/_contact.scss */
+.fa-google-plus {
+  color: #de4e3b;
+  border-color: #de4e3b;
+}
+
+/* line 86, ../sass/_module/_contact.scss */
+.fa-google-plus:hover {
+  background-color: #de4e3b;
+}
+
+/* line 90, ../sass/_module/_contact.scss */
+.fa-linkedin {
+  color: #0e78aa;
+  border-color: #0e78aa;
+}
+
+/* line 95, ../sass/_module/_contact.scss */
+.fa-linkedin:hover {
+  background-color: #0e78aa;
+}
+
+/* line 99, ../sass/_module/_contact.scss */
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus:hover, .fa-linkedin:hover {
+  color: white;
+}
+
+/* line 103, ../sass/_module/_contact.scss */
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
 }
