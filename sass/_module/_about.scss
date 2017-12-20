@@ -1,6 +1,9 @@
+.md--carousel{
+	z-index: 1;
+}
 .about{
 	position: relative;
-	z-index: -1;
+	z-index: 0;
 	background-color: $secondary-color;
 }
 
@@ -19,4 +22,14 @@
 
 .no-skew{
 	margin-top: -50px;
+	padding-bottom: 50px;
+}
+
+.section-paragraph{
+	font-size: 1.4em;
+	font-family: $font-secondary;
+}
+
+.rev-text{
+	color: $rev-text;
 }
