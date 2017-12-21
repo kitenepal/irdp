@@ -316,6 +316,45 @@
   color: #E3E7E8;
   text-decoration: none;
 }
+
+/* line 1, ../sass/_module/_pages/_about-us.scss */
+.about-us__img {
+  padding: 25px;
+}
+
+/* line 4, ../sass/_module/_pages/_about-us.scss */
+.about-us {
+  margin: 50px 10px;
+  padding: 15px 15px;
+  color: #1b2122;
+}
+/* line 8, ../sass/_module/_pages/_about-us.scss */
+.about-us h3 {
+  margin: 0px;
+  font-weight: bold;
+}
+/* line 12, ../sass/_module/_pages/_about-us.scss */
+.about-us__left {
+  text-align: left;
+  padding: 10px 25px;
+}
+/* line 16, ../sass/_module/_pages/_about-us.scss */
+.about-us__right {
+  text-align: right;
+  padding: 10px 25px;
+}
+/* line 20, ../sass/_module/_pages/_about-us.scss */
+.about-us a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 25, ../sass/_module/_pages/_about-us.scss */
+.about-us__hr {
+  border-top: 2px solid #E3E7E8;
+  margin: 0px;
+}
+
 /* line 1, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals {
   margin: 50px 10px;
@@ -355,10 +394,6 @@
 .ourgoals__hr {
   border-top: 2px solid #E3E7E8;
   margin: 0px;
-}
-/* line 1, ../sass/_module/_pages/_about-us.scss */
-.about-us__img {
-  padding: 25px;
 }
 /* line 35, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals .thumbnail {
