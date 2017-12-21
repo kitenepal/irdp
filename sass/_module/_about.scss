@@ -9,6 +9,32 @@
 	position: relative;
 	z-index: 0;
 	background-color: $secondary-color;
+	&__button--white{
+			border-radius: 0px;
+			outline: none;
+			border: none;
+			padding: 8px 25px;
+			transition: 0.3s;
+			font-size: 1.1em;
+			background-color: $white;
+			color: $primary-color;
+	}
+	&__button--white:hover{
+		background-color: $dark-secondary;
+	}
+	&__button--green{
+		border-radius: 0px;
+		outline: none;
+		border: none;
+		padding: 8px 25px;
+		transition: 0.3s;
+		font-size: 1.1em;
+		background-color: $primary-color;
+		color: $secondary-color;
+	}
+	&__button--green:hover{
+		background-color: $dark-primary;
+	}
 }
 
 .skewed{

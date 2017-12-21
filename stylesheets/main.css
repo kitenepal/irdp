@@ -61,8 +61,38 @@
   z-index: 0;
   background-color: #E3E7E8;
 }
+/* line 12, ../sass/_module/_about.scss */
+.about__button--white {
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  padding: 8px 25px;
+  transition: 0.3s;
+  font-size: 1.1em;
+  background-color: #fff;
+  color: #00796B;
+}
+/* line 22, ../sass/_module/_about.scss */
+.about__button--white:hover {
+  background-color: #E3E7E8;
+}
+/* line 25, ../sass/_module/_about.scss */
+.about__button--green {
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  padding: 8px 25px;
+  transition: 0.3s;
+  font-size: 1.1em;
+  background-color: #00796B;
+  color: #E3E7E8;
+}
+/* line 35, ../sass/_module/_about.scss */
+.about__button--green:hover {
+  background-color: #004c40;
+}
 
-/* line 14, ../sass/_module/_about.scss */
+/* line 40, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
   padding: 50px 0px;
@@ -71,30 +101,30 @@
   z-index: -1;
 }
 
-/* line 22, ../sass/_module/_about.scss */
+/* line 48, ../sass/_module/_about.scss */
 .skew-rev {
   transform: skew(0deg, -3deg);
 }
 
-/* line 27, ../sass/_module/_about.scss */
+/* line 53, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
   padding-bottom: 50px;
 }
 
-/* line 32, ../sass/_module/_about.scss */
+/* line 58, ../sass/_module/_about.scss */
 .section-paragraph {
   font-size: 1.2em;
   font-family: "Bahnschrift Light";
 }
 
-/* line 37, ../sass/_module/_about.scss */
+/* line 63, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
 }
 
 /* extra for image */
-/* line 42, ../sass/_module/_about.scss */
+/* line 68, ../sass/_module/_about.scss */
 .img-back {
   position: absolute;
   z-index: -1;
@@ -106,7 +136,7 @@
   transition: .3s;
 }
 
-/* line 52, ../sass/_module/_about.scss */
+/* line 78, ../sass/_module/_about.scss */
 .img-back-bottom {
   position: absolute;
   z-index: -1;
@@ -120,7 +150,7 @@
   transition: .3s;
 }
 
-/* line 64, ../sass/_module/_about.scss */
+/* line 90, ../sass/_module/_about.scss */
 .yo:hover > .img-back {
   border-radius: 9px;
   margin: 20px 0px 0px -10px;
@@ -128,7 +158,7 @@
   background-color: #15b1b1;
 }
 
-/* line 71, ../sass/_module/_about.scss */
+/* line 97, ../sass/_module/_about.scss */
 .yo:hover > .img-back-bottom {
   border-radius: 9px;
   margin: 15px 0px -15px 0px;
