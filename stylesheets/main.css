@@ -129,7 +129,6 @@
 
 /* line 2, ../sass/_module/_members.scss */
 .member__button {
-  margin: 0px auto;
   margin: 50px;
   background-color: #004c40;
   border-radius: 0px;
@@ -140,17 +139,17 @@
   font-size: 1.1em;
   color: #fff;
 }
-/* line 14, ../sass/_module/_members.scss */
+/* line 13, ../sass/_module/_members.scss */
 .member__button:hover {
   background-color: #00796B;
 }
 
-/* line 19, ../sass/_module/_members.scss */
+/* line 18, ../sass/_module/_members.scss */
 .member h1 {
   font-family: "Bree Serif", serif;
 }
 
-/* line 23, ../sass/_module/_members.scss */
+/* line 22, ../sass/_module/_members.scss */
 .member h3 {
   font-family: "Bree Serif", serif;
 }
