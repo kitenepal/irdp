@@ -91,8 +91,12 @@
 .about__button--green:hover {
   background-color: #004c40;
 }
+/* line 38, ../sass/_module/_about.scss */
+.about .img-thumbnail {
+  border-radius: 0px;
+}
 
-/* line 40, ../sass/_module/_about.scss */
+/* line 43, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
   padding: 50px 0px;
@@ -101,69 +105,26 @@
   z-index: -1;
 }
 
-/* line 48, ../sass/_module/_about.scss */
+/* line 51, ../sass/_module/_about.scss */
 .skew-rev {
   transform: skew(0deg, -3deg);
 }
 
-/* line 53, ../sass/_module/_about.scss */
+/* line 56, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
   padding-bottom: 50px;
 }
 
-/* line 58, ../sass/_module/_about.scss */
+/* line 61, ../sass/_module/_about.scss */
 .section-paragraph {
   font-size: 1.2em;
   font-family: "Bahnschrift Light";
 }
 
-/* line 63, ../sass/_module/_about.scss */
+/* line 66, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
-}
-
-/* extra for image */
-/* line 68, ../sass/_module/_about.scss */
-.img-back {
-  position: absolute;
-  z-index: -1;
-  background-color: #00ffff;
-  width: 150px;
-  height: 100px;
-  border-radius: 4px;
-  margin: 15px 0px 0px -15px;
-  transition: .3s;
-}
-
-/* line 78, ../sass/_module/_about.scss */
-.img-back-bottom {
-  position: absolute;
-  z-index: -1;
-  bottom: 0px;
-  right: 0px;
-  margin: 0px 15px 0px 0px;
-  background-color: #00ffff;
-  width: 150px;
-  height: 100px;
-  border-radius: 4px;
-  transition: .3s;
-}
-
-/* line 90, ../sass/_module/_about.scss */
-.yo:hover > .img-back {
-  border-radius: 9px;
-  margin: 20px 0px 0px -10px;
-  box-shadow: 0px 0px 9px #00ffff;
-  background-color: #15b1b1;
-}
-
-/* line 97, ../sass/_module/_about.scss */
-.yo:hover > .img-back-bottom {
-  border-radius: 9px;
-  margin: 15px 0px -15px 0px;
-  box-shadow: 0px 0px 9px #00ffff;
-  background-color: #15b1b1;
 }
 
 /* line 2, ../sass/_module/_members.scss */

@@ -35,6 +35,9 @@
 	&__button--green:hover{
 		background-color: $dark-primary;
 	}
+	.img-thumbnail{
+		border-radius: 0px;
+	}
 }
 
 .skewed{
@@ -64,39 +67,3 @@
 	color: $rev-text;
 }
 
-/* extra for image */
-.img-back{
-	position: absolute;
-	z-index: -1;
-	background-color: #00ffff;
-	width: 150px;
-	height: 100px;
-	border-radius: 4px;
-	margin: 15px 0px 0px -15px;
-	transition: .3s;
-}
-.img-back-bottom{
-	position: absolute;
-	z-index: -1;
-	bottom: 0px;
-	right: 0px;
-	margin: 0px 15px 0px 0px;
-	background-color: #00ffff;
-	width: 150px;
-	height: 100px;
-	border-radius: 4px;
-	transition: .3s;
-}
-.yo:hover > .img-back{
-	border-radius: 9px;
-	margin: 20px 0px 0px -10px;
-	box-shadow: 0px 0px 9px #00ffff;
-	background-color: #15b1b1;
-}
-
-.yo:hover > .img-back-bottom{
-		border-radius: 9px;
-		margin: 15px 0px -15px 0px;
-		box-shadow: 0px 0px 9px #00ffff;
-		background-color: #15b1b1;
-}
