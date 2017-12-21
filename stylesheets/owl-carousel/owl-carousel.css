@@ -553,21 +553,19 @@
   float: left;
   border: 0;
   box-shadow: none;
-  color: #fff;
-  text-transform: uppercase;
+  color: #1b2122;
+  text-decoration: none;
+  //text-transform: uppercase;
   text-shadow: none;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
-  -webkit-transition: all .1s ease-in 0s;
-  -moz-transition: all .1s ease-in 0s;
-  -o-transition: all .1s ease-in 0s;
-  transition-property: all .1s ease-in 0s;
+  transition: 0.5s;
   -webkit-font-smoothing: antialiased;
-  background: #1b2122;
+  background: #E3E7E8;
 }
 
 .customNavigation .btn-carousel:hover {
-  background: #282a2b;
+  background: #c1c1c1;
 }
 
 .hoverfx {
