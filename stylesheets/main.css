@@ -370,3 +370,7 @@
   padding: 25px;
 >>>>>>> 76c2393334537e9751a2e3cda99d54c9586846b6
 }
+/* line 35, ../sass/_module/_pages/_ourgoalpage.scss */
+.ourgoals .thumbnail {
+  border-radius: 0px;
+}
