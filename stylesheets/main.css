@@ -309,3 +309,17 @@
   fill: white;
   background: #d34836;
 }
+
+/* line 1, ../sass/_module/_footer.scss */
+.bottom {
+  background-color: #004c40;
+  color: #E3E7E8;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+/* line 8, ../sass/_module/_footer.scss */
+.bottom a {
+  color: #E3E7E8;
+  text-decoration: none;
+}
