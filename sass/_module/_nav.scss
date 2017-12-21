@@ -2,6 +2,7 @@
 	color: $white;
 	background-color: $primary-color;
 	border-color: $primary-color;
+	border-bottom: 1px solid $dark-primary;
 }
 
 .navbar-brand{ 
@@ -22,7 +23,7 @@
 .navbar-nav > li{
 	transition: .3s;
 	&:hover{
-	background-color: $white;
+	background-color: $dark-primary;
 	color: $primary-color;
 	}
 }
