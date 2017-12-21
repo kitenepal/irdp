@@ -324,6 +324,7 @@
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* line 1, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals {
   margin: 50px 10px;
@@ -363,4 +364,9 @@
 .ourgoals__hr {
   border-top: 2px solid #E3E7E8;
   margin: 0px;
+=======
+/* line 1, ../sass/_module/_pages/_about-us.scss */
+.about-us__img {
+  padding: 25px;
+>>>>>>> 76c2393334537e9751a2e3cda99d54c9586846b6
 }
