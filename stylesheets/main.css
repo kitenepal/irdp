@@ -323,3 +323,8 @@
   color: #E3E7E8;
   text-decoration: none;
 }
+
+/* line 1, ../sass/_module/_pages/_about.scss */
+.about-us img {
+  padding: 25px;
+}
