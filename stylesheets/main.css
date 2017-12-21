@@ -9,89 +9,39 @@
   font-family: "Bree Serif", serif;
 }
 
-/* line 1, ../sass/_base/_button.scss */
-.spot {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-/* line 8, ../sass/_base/_button.scss */
-.svg-wrapper {
-  margin: 0px auto;
-  position: relative;
-  width: 150px;
-  height: 40px;
-  border-radius: 3px;
-  box-shadow: 0px 0px 10px #004A41;
-}
-
-/* line 17, ../sass/_base/_button.scss */
-#shape {
-  stroke-width: 6px;
-  fill: transparent;
-  stroke: #fff;
-  stroke-dasharray: 85 400;
-  stroke-dashoffset: -220;
-  transition: 1s all ease;
-}
-
-/* line 27, ../sass/_base/_button.scss */
-#text {
-  margin-top: -35px;
-  text-align: center;
-}
-
-/* line 32, ../sass/_base/_button.scss */
-#text a {
-  color: black;
-  text-decoration: none;
-  font-weight: 100;
-  font-size: 1.1em;
-}
-
-/* line 39, ../sass/_base/_button.scss */
-.svg-wrapper:hover #shape {
-  stroke-dasharray: 50 0;
-  stroke-width: 3px;
-  stroke-dashoffset: 0;
-  stroke: #06D6A0;
-}
-
 /* line 1, ../sass/_module/_nav.scss */
 .md--navbar {
   color: #fff;
   background-color: #00796B;
   border-color: #00796B;
+  border-bottom: 1px solid #004c40;
 }
 
-/* line 7, ../sass/_module/_nav.scss */
+/* line 8, ../sass/_module/_nav.scss */
 .navbar-brand {
   line-height: 15px;
   padding: 10px 15px;
 }
 
-/* line 12, ../sass/_module/_nav.scss */
+/* line 13, ../sass/_module/_nav.scss */
 .main-logo {
   font-weight: bold;
   font-size: 1.3em;
 }
 
-/* line 17, ../sass/_module/_nav.scss */
+/* line 18, ../sass/_module/_nav.scss */
 .sub-logo {
   font-size: 0.8em;
   font-weight: normal;
 }
 
-/* line 22, ../sass/_module/_nav.scss */
+/* line 23, ../sass/_module/_nav.scss */
 .navbar-nav > li {
   transition: .3s;
 }
-/* line 24, ../sass/_module/_nav.scss */
+/* line 25, ../sass/_module/_nav.scss */
 .navbar-nav > li:hover {
-  background-color: #fff;
+  background-color: #004c40;
   color: #00796B;
 }
 
@@ -115,7 +65,7 @@
 /* line 14, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
-  padding: 65px 0px;
+  padding: 50px 0px;
   transform: skew(0deg, 3deg) translateY(-50px);
   position: relative;
   z-index: -1;
@@ -134,13 +84,56 @@
 
 /* line 32, ../sass/_module/_about.scss */
 .section-paragraph {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: "Bahnschrift Light";
 }
 
 /* line 37, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
+}
+
+/* extra for image */
+/* line 42, ../sass/_module/_about.scss */
+.img-back {
+  position: absolute;
+  z-index: -1;
+  background-color: #00ffff;
+  width: 150px;
+  height: 100px;
+  border-radius: 4px;
+  margin: 15px 0px 0px -15px;
+  transition: .3s;
+}
+
+/* line 52, ../sass/_module/_about.scss */
+.img-back-bottom {
+  position: absolute;
+  z-index: -1;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px 15px 0px 0px;
+  background-color: #00ffff;
+  width: 150px;
+  height: 100px;
+  border-radius: 4px;
+  transition: .3s;
+}
+
+/* line 64, ../sass/_module/_about.scss */
+.yo:hover > .img-back {
+  border-radius: 9px;
+  margin: 20px 0px 0px -10px;
+  box-shadow: 0px 0px 9px #00ffff;
+  background-color: #15b1b1;
+}
+
+/* line 71, ../sass/_module/_about.scss */
+.yo:hover > .img-back-bottom {
+  border-radius: 9px;
+  margin: 15px 0px -15px 0px;
+  box-shadow: 0px 0px 9px #00ffff;
+  background-color: #15b1b1;
 }
 
 /* line 2, ../sass/_module/_members.scss */
