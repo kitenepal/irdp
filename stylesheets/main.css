@@ -364,3 +364,7 @@
   border-top: 2px solid #E3E7E8;
   margin: 0px;
 }
+/* line 35, ../sass/_module/_pages/_ourgoalpage.scss */
+.ourgoals .thumbnail {
+  border-radius: 0px;
+}
