@@ -48,20 +48,21 @@
 /* line 1, ../sass/_module/_about.scss */
 .md--carousel {
   z-index: 1;
+  margin-top: 50px;
 }
 
-/* line 4, ../sass/_module/_about.scss */
+/* line 5, ../sass/_module/_about.scss */
 .md--adjust {
   margin-top: 30px;
 }
 
-/* line 8, ../sass/_module/_about.scss */
+/* line 9, ../sass/_module/_about.scss */
 .about {
   position: relative;
   z-index: 0;
   background-color: #E3E7E8;
 }
-/* line 12, ../sass/_module/_about.scss */
+/* line 13, ../sass/_module/_about.scss */
 .about__button--white {
   border-radius: 0px;
   outline: none;
@@ -72,11 +73,11 @@
   background-color: #fff;
   color: #00796B;
 }
-/* line 22, ../sass/_module/_about.scss */
+/* line 23, ../sass/_module/_about.scss */
 .about__button--white:hover {
   background-color: #E3E7E8;
 }
-/* line 25, ../sass/_module/_about.scss */
+/* line 26, ../sass/_module/_about.scss */
 .about__button--green {
   border-radius: 0px;
   outline: none;
@@ -87,16 +88,16 @@
   background-color: #00796B;
   color: #E3E7E8;
 }
-/* line 35, ../sass/_module/_about.scss */
+/* line 36, ../sass/_module/_about.scss */
 .about__button--green:hover {
   background-color: #004c40;
 }
-/* line 38, ../sass/_module/_about.scss */
+/* line 39, ../sass/_module/_about.scss */
 .about .img-thumbnail {
   border-radius: 0px;
 }
 
-/* line 43, ../sass/_module/_about.scss */
+/* line 44, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
   padding: 50px 0px;
@@ -105,23 +106,23 @@
   z-index: -1;
 }
 
-/* line 51, ../sass/_module/_about.scss */
+/* line 52, ../sass/_module/_about.scss */
 .skew-rev {
   transform: skew(0deg, -3deg);
 }
 
-/* line 56, ../sass/_module/_about.scss */
+/* line 57, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
   padding-bottom: 50px;
 }
 
-/* line 61, ../sass/_module/_about.scss */
+/* line 62, ../sass/_module/_about.scss */
 .section-paragraph {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
-/* line 65, ../sass/_module/_about.scss */
+/* line 66, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
 }
@@ -205,51 +206,45 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
-/* line 48, ../sass/_module/_goal.scss */
-.ourGoal--box {
-  font-size: 1.2em;
-}
-
 /* line 1, ../sass/_module/_contact.scss */
 .contact {
   background-color: #1b2122;
   color: #fff;
-  font-size: 1.2em;
 }
-/* line 8, ../sass/_module/_contact.scss */
+/* line 7, ../sass/_module/_contact.scss */
 .contact__sitemap {
   padding: 0px;
 }
-/* line 11, ../sass/_module/_contact.scss */
+/* line 10, ../sass/_module/_contact.scss */
 .contact__sitemap li {
   list-style: none;
   padding: 0px;
 }
-/* line 15, ../sass/_module/_contact.scss */
+/* line 14, ../sass/_module/_contact.scss */
 .contact__sitemap a {
   color: white;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 19, ../sass/_module/_contact.scss */
+/* line 18, ../sass/_module/_contact.scss */
 .contact__sitemap a:hover {
   border-left: 4px solid #004c40;
   padding-left: 10px;
 }
 
-/* line 26, ../sass/_module/_contact.scss */
+/* line 25, ../sass/_module/_contact.scss */
 .contact h1 {
   font-family: "Bree Serif", serif;
 }
 
-/* line 30, ../sass/_module/_contact.scss */
+/* line 29, ../sass/_module/_contact.scss */
 .contact h4 {
-  font-weight: bold;
+  font-family: "Bree Serif", serif;
   padding-bottom: 10px;
   border-bottom: 2px solid #00796B;
 }
 
-/* line 37, ../sass/_module/_contact.scss */
+/* line 36, ../sass/_module/_contact.scss */
 .social {
   display: inline-block;
   width: 36px;
@@ -261,50 +256,50 @@
   transition: all 0.5s ease-in-out;
 }
 
-/* line 47, ../sass/_module/_contact.scss */
+/* line 46, ../sass/_module/_contact.scss */
 .social svg {
   transition: transform 0.5s ease-out;
 }
 
-/* line 50, ../sass/_module/_contact.scss */
+/* line 49, ../sass/_module/_contact.scss */
 .social:hover {
   border-radius: 10%;
   transform: rotate(405deg);
 }
 
-/* line 54, ../sass/_module/_contact.scss */
+/* line 53, ../sass/_module/_contact.scss */
 .social:hover svg {
   transform: rotate(315deg);
 }
 
-/* line 58, ../sass/_module/_contact.scss */
+/* line 57, ../sass/_module/_contact.scss */
 .facebook {
   fill: #3b5998;
 }
 
-/* line 61, ../sass/_module/_contact.scss */
+/* line 60, ../sass/_module/_contact.scss */
 .facebook:hover {
   fill: white;
   background: #3b5998;
 }
 
-/* line 66, ../sass/_module/_contact.scss */
+/* line 65, ../sass/_module/_contact.scss */
 .twitter {
   fill: #4099FF;
 }
 
-/* line 69, ../sass/_module/_contact.scss */
+/* line 68, ../sass/_module/_contact.scss */
 .twitter:hover {
   fill: white;
   background: #4099FF;
 }
 
-/* line 73, ../sass/_module/_contact.scss */
+/* line 72, ../sass/_module/_contact.scss */
 .googleplus {
   fill: #d34836;
 }
 
-/* line 77, ../sass/_module/_contact.scss */
+/* line 76, ../sass/_module/_contact.scss */
 .googleplus:hover {
   fill: white;
   background: #d34836;
@@ -315,7 +310,7 @@
   background-color: #004c40;
   color: #E3E7E8;
   text-align: center;
-  padding: 15px 0px 5px 0px;
+  padding: 10px 0px;
 }
 
 /* line 8, ../sass/_module/_footer.scss */
