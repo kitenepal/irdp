@@ -170,15 +170,14 @@
 /* line 11, ../sass/_module/_goal.scss */
 .ourGoal .logo-small {
   background-color: #00796B;
-  padding: 30px;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 32px;
 }
-/* line 17, ../sass/_module/_goal.scss */
+/* line 16, ../sass/_module/_goal.scss */
 .ourGoal h1 {
   font-family: "Bree Serif", serif;
 }
-/* line 20, ../sass/_module/_goal.scss */
+/* line 19, ../sass/_module/_goal.scss */
 .ourGoal__button {
   margin: 50px;
   background-color: #00796B;
@@ -189,16 +188,16 @@
   transition: 0.3s;
   font-size: 1.1em;
 }
-/* line 30, ../sass/_module/_goal.scss */
+/* line 29, ../sass/_module/_goal.scss */
 .ourGoal__button:hover {
   background-color: #004c40;
 }
-/* line 33, ../sass/_module/_goal.scss */
+/* line 32, ../sass/_module/_goal.scss */
 .ourGoal--box {
   padding: 25px;
   transition: 0.5s;
 }
-/* line 36, ../sass/_module/_goal.scss */
+/* line 35, ../sass/_module/_goal.scss */
 .ourGoal--box:hover {
   background-color: #202728;
   border-radius: 2px 2px 2px 2px;
