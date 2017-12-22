@@ -2,11 +2,17 @@
 	padding: 25px;
 }
 .about-us{
-	margin: 50px 10px;
-	padding:15px 15px;
+	margin: 30px 0px;
 	color: $darkblue;
+	&__box{
+		margin: 0px 10px 0px 30px;
+	}
 	h3{
 		margin: 0px;
+		font-weight: bold;
+	}
+	h4{
+		margin: 20px 0px 10px 0px;
 		font-weight: bold;
 	}
 	&__left{
@@ -22,7 +28,7 @@
 		transition: 0.3s;
 	}
 	&__hr{
-		border-top: 2px solid $darkblue;
+		border-top: 2px solid $secondary-color;
 		margin: 0px;
 	}
 }
