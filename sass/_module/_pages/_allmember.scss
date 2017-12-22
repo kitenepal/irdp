@@ -1,0 +1,20 @@
+.member-info{
+	position: absolute;
+	bottom: 0px;
+	right: 25px;
+	color: $white;
+}
+
+.content-circle{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgb(18, 240, 70);
+	margin: 0px auto;
+	.memb-name{
+		font-weight: bold;
+	}
+}
+
+
+
