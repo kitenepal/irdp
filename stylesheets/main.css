@@ -193,6 +193,19 @@
 .ourGoal__button:hover {
   background-color: #004c40;
 }
+/* line 33, ../sass/_module/_goal.scss */
+.ourGoal--box {
+  padding: 25px;
+  transition: 0.5s;
+}
+/* line 36, ../sass/_module/_goal.scss */
+.ourGoal--box:hover {
+  background-color: #202728;
+  border-radius: 2px 2px 2px 2px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 
 /* line 1, ../sass/_module/_contact.scss */
 .contact {
