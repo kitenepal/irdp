@@ -119,7 +119,7 @@
 
 /* line 62, ../sass/_module/_about.scss */
 .section-paragraph {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 /* line 66, ../sass/_module/_about.scss */
@@ -206,45 +206,51 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
+/* line 48, ../sass/_module/_goal.scss */
+.ourGoal--box {
+  font-size: 1.2em;
+}
+
 /* line 1, ../sass/_module/_contact.scss */
 .contact {
   background-color: #1b2122;
   color: #fff;
+  font-size: 1.2em;
 }
-/* line 7, ../sass/_module/_contact.scss */
+/* line 8, ../sass/_module/_contact.scss */
 .contact__sitemap {
   padding: 0px;
 }
-/* line 10, ../sass/_module/_contact.scss */
+/* line 11, ../sass/_module/_contact.scss */
 .contact__sitemap li {
   list-style: none;
   padding: 0px;
 }
-/* line 14, ../sass/_module/_contact.scss */
+/* line 15, ../sass/_module/_contact.scss */
 .contact__sitemap a {
   color: white;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 18, ../sass/_module/_contact.scss */
+/* line 19, ../sass/_module/_contact.scss */
 .contact__sitemap a:hover {
   border-left: 4px solid #004c40;
   padding-left: 10px;
 }
 
-/* line 25, ../sass/_module/_contact.scss */
+/* line 26, ../sass/_module/_contact.scss */
 .contact h1 {
   font-family: "Bree Serif", serif;
 }
 
-/* line 29, ../sass/_module/_contact.scss */
+/* line 30, ../sass/_module/_contact.scss */
 .contact h4 {
-  font-family: "Bree Serif", serif;
+  font-weight: bold;
   padding-bottom: 10px;
   border-bottom: 2px solid #00796B;
 }
 
-/* line 36, ../sass/_module/_contact.scss */
+/* line 37, ../sass/_module/_contact.scss */
 .social {
   display: inline-block;
   width: 36px;
@@ -256,50 +262,50 @@
   transition: all 0.5s ease-in-out;
 }
 
-/* line 46, ../sass/_module/_contact.scss */
+/* line 47, ../sass/_module/_contact.scss */
 .social svg {
   transition: transform 0.5s ease-out;
 }
 
-/* line 49, ../sass/_module/_contact.scss */
+/* line 50, ../sass/_module/_contact.scss */
 .social:hover {
   border-radius: 10%;
   transform: rotate(405deg);
 }
 
-/* line 53, ../sass/_module/_contact.scss */
+/* line 54, ../sass/_module/_contact.scss */
 .social:hover svg {
   transform: rotate(315deg);
 }
 
-/* line 57, ../sass/_module/_contact.scss */
+/* line 58, ../sass/_module/_contact.scss */
 .facebook {
   fill: #3b5998;
 }
 
-/* line 60, ../sass/_module/_contact.scss */
+/* line 61, ../sass/_module/_contact.scss */
 .facebook:hover {
   fill: white;
   background: #3b5998;
 }
 
-/* line 65, ../sass/_module/_contact.scss */
+/* line 66, ../sass/_module/_contact.scss */
 .twitter {
   fill: #4099FF;
 }
 
-/* line 68, ../sass/_module/_contact.scss */
+/* line 69, ../sass/_module/_contact.scss */
 .twitter:hover {
   fill: white;
   background: #4099FF;
 }
 
-/* line 72, ../sass/_module/_contact.scss */
+/* line 73, ../sass/_module/_contact.scss */
 .googleplus {
   fill: #d34836;
 }
 
-/* line 76, ../sass/_module/_contact.scss */
+/* line 77, ../sass/_module/_contact.scss */
 .googleplus:hover {
   fill: white;
   background: #d34836;
@@ -310,7 +316,7 @@
   background-color: #004c40;
   color: #E3E7E8;
   text-align: center;
-  padding: 10px 0px;
+  padding: 15px 0px 5px 0px;
 }
 
 /* line 8, ../sass/_module/_footer.scss */
