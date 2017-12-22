@@ -3,6 +3,8 @@
 	background-color: $primary-color;
 	border-color: $primary-color;
 	border-bottom: 1px solid $dark-primary;
+	z-index: 5;
+  position: relative;
 }
 
 .navbar-brand{ 
