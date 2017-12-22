@@ -335,23 +335,22 @@
 }
 /* line 12, ../sass/_module/_pages/_about-us.scss */
 .about-us__left {
-  text-align: left;
   padding: 10px 25px;
 }
-/* line 16, ../sass/_module/_pages/_about-us.scss */
+/* line 15, ../sass/_module/_pages/_about-us.scss */
 .about-us__right {
   text-align: right;
   padding: 10px 25px;
 }
-/* line 20, ../sass/_module/_pages/_about-us.scss */
+/* line 19, ../sass/_module/_pages/_about-us.scss */
 .about-us a {
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 25, ../sass/_module/_pages/_about-us.scss */
+/* line 24, ../sass/_module/_pages/_about-us.scss */
 .about-us__hr {
-  border-top: 2px solid #E3E7E8;
+  border-top: 2px solid #1b2122;
   margin: 0px;
 }
 
@@ -398,4 +397,66 @@
 /* line 35, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals .thumbnail {
   border-radius: 0px;
+}
+
+/* line 1, ../sass/_module/_pages/_ongoing.scss */
+.ongoing {
+  margin: 50px 10px;
+  padding: 15px 15px;
+  color: #1b2122;
+}
+/* line 5, ../sass/_module/_pages/_ongoing.scss */
+.ongoing h3 {
+  margin: 0px;
+  font-weight: bold;
+}
+/* line 9, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__left {
+  padding: 10px 25px;
+}
+/* line 12, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__right {
+  text-align: right;
+  padding: 10px 25px;
+}
+/* line 16, ../sass/_module/_pages/_ongoing.scss */
+.ongoing a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 21, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__hr {
+  border-top: 2px solid #1b2122;
+}
+
+/* line 1, ../sass/_module/_pages/_completed.scss */
+.completed {
+  margin: 50px 10px;
+  padding: 15px 15px;
+  color: #1b2122;
+}
+/* line 5, ../sass/_module/_pages/_completed.scss */
+.completed h3 {
+  margin: 0px;
+  font-weight: bold;
+}
+/* line 9, ../sass/_module/_pages/_completed.scss */
+.completed__left {
+  padding: 10px 25px;
+}
+/* line 12, ../sass/_module/_pages/_completed.scss */
+.completed__right {
+  text-align: right;
+  padding: 10px 25px;
+}
+/* line 16, ../sass/_module/_pages/_completed.scss */
+.completed a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 21, ../sass/_module/_pages/_completed.scss */
+.completed__hr {
+  border-top: 2px solid #1b2122;
 }
