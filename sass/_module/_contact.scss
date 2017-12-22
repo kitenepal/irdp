@@ -2,8 +2,23 @@
 	background-color: $darkblue;
 	color: $white;
 	font-size: $paragraph-text;
+	h1{
+		font-family: $font-primary;
+		margin: $heading-margin;
+	}
+	h4{
+		font-weight: bold;
+		padding-bottom: 10px;
+		border-bottom: 2px solid $primary-color;
+	}
 	&__aboutus{
-
+		a{
+			text-decoration: none;
+			transition: 0.5s;
+		}
+		a:hover{
+			color: $white;
+		}
 	}
 	&__sitemap{
 		padding: 0px;
@@ -22,17 +37,6 @@
 		}
 	}
 }
-
-.contact h1{
-	font-family: $font-primary;
-}
-
-.contact h4{
-	font-weight: bold;
-	padding-bottom: 10px;
-	border-bottom: 2px solid $primary-color;
-}
-
 
 .social{
   display : inline-block;

@@ -1,12 +1,11 @@
 .ourGoal{
 	background-color: $darkblue;
 	color: $white;
-
 	&__wrap{
 		padding-top: 30px;
 	}
 	&__contents{
-		margin-top: 50px;
+		margin-top: 0px;
 	}
 	.logo-small{
 		background-color: $primary-color;
@@ -15,6 +14,7 @@
 	}
 	h1{
 		font-family: $font-primary;
+		margin: $heading-margin;
 	}
 	&__button{
 		margin: $button-margin;
