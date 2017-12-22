@@ -1,7 +1,6 @@
 .member{
 	&__button{
-		margin: 0px auto;
-		margin: 50px;
+		margin: $button-margin;
 		background-color: $dark-primary;
 		border-radius: 0px;
 		outline: none;

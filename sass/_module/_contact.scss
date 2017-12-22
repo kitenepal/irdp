@@ -1,6 +1,7 @@
 .contact{
 	background-color: $darkblue;
 	color: $white;
+	font-size: $paragraph-text;
 	&__aboutus{
 
 	}
@@ -27,7 +28,7 @@
 }
 
 .contact h4{
-	font-family: $font-primary;
+	font-weight: bold;
 	padding-bottom: 10px;
 	border-bottom: 2px solid $primary-color;
 }

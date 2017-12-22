@@ -48,21 +48,56 @@
 /* line 1, ../sass/_module/_about.scss */
 .md--carousel {
   z-index: 1;
+  margin-top: 50px;
 }
 
-/* line 4, ../sass/_module/_about.scss */
+/* line 5, ../sass/_module/_about.scss */
 .md--adjust {
   margin-top: 30px;
 }
 
-/* line 8, ../sass/_module/_about.scss */
+/* line 9, ../sass/_module/_about.scss */
 .about {
   position: relative;
   z-index: 0;
   background-color: #E3E7E8;
 }
+/* line 13, ../sass/_module/_about.scss */
+.about__button--white {
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  padding: 8px 25px;
+  transition: 0.3s;
+  font-size: 1.1em;
+  background-color: #fff;
+  color: #00796B;
+}
+/* line 23, ../sass/_module/_about.scss */
+.about__button--white:hover {
+  background-color: #E3E7E8;
+}
+/* line 26, ../sass/_module/_about.scss */
+.about__button--green {
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  padding: 8px 25px;
+  transition: 0.3s;
+  font-size: 1.1em;
+  background-color: #00796B;
+  color: #E3E7E8;
+}
+/* line 36, ../sass/_module/_about.scss */
+.about__button--green:hover {
+  background-color: #004c40;
+}
+/* line 39, ../sass/_module/_about.scss */
+.about .img-thumbnail {
+  border-radius: 0px;
+}
 
-/* line 14, ../sass/_module/_about.scss */
+/* line 44, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
   padding: 50px 0px;
@@ -71,74 +106,29 @@
   z-index: -1;
 }
 
-/* line 22, ../sass/_module/_about.scss */
+/* line 52, ../sass/_module/_about.scss */
 .skew-rev {
   transform: skew(0deg, -3deg);
 }
 
-/* line 27, ../sass/_module/_about.scss */
+/* line 57, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
   padding-bottom: 50px;
 }
 
-/* line 32, ../sass/_module/_about.scss */
+/* line 62, ../sass/_module/_about.scss */
 .section-paragraph {
-  font-size: 1.2em;
-  font-family: "Bahnschrift Light";
+  font-size: 1.3em;
 }
 
-/* line 37, ../sass/_module/_about.scss */
+/* line 66, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
 }
 
-/* extra for image */
-/* line 42, ../sass/_module/_about.scss */
-.img-back {
-  position: absolute;
-  z-index: -1;
-  background-color: #00ffff;
-  width: 150px;
-  height: 100px;
-  border-radius: 4px;
-  margin: 15px 0px 0px -15px;
-  transition: .3s;
-}
-
-/* line 52, ../sass/_module/_about.scss */
-.img-back-bottom {
-  position: absolute;
-  z-index: -1;
-  bottom: 0px;
-  right: 0px;
-  margin: 0px 15px 0px 0px;
-  background-color: #00ffff;
-  width: 150px;
-  height: 100px;
-  border-radius: 4px;
-  transition: .3s;
-}
-
-/* line 64, ../sass/_module/_about.scss */
-.yo:hover > .img-back {
-  border-radius: 9px;
-  margin: 20px 0px 0px -10px;
-  box-shadow: 0px 0px 9px #00ffff;
-  background-color: #15b1b1;
-}
-
-/* line 71, ../sass/_module/_about.scss */
-.yo:hover > .img-back-bottom {
-  border-radius: 9px;
-  margin: 15px 0px -15px 0px;
-  box-shadow: 0px 0px 9px #00ffff;
-  background-color: #15b1b1;
-}
-
 /* line 2, ../sass/_module/_members.scss */
 .member__button {
-  margin: 0px auto;
   margin: 50px;
   background-color: #004c40;
   border-radius: 0px;
@@ -149,17 +139,17 @@
   font-size: 1.1em;
   color: #fff;
 }
-/* line 14, ../sass/_module/_members.scss */
+/* line 13, ../sass/_module/_members.scss */
 .member__button:hover {
   background-color: #00796B;
 }
 
-/* line 19, ../sass/_module/_members.scss */
+/* line 18, ../sass/_module/_members.scss */
 .member h1 {
   font-family: "Bree Serif", serif;
 }
 
-/* line 23, ../sass/_module/_members.scss */
+/* line 22, ../sass/_module/_members.scss */
 .member h3 {
   font-family: "Bree Serif", serif;
 }
@@ -175,20 +165,19 @@
 }
 /* line 8, ../sass/_module/_goal.scss */
 .ourGoal__contents {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 /* line 11, ../sass/_module/_goal.scss */
 .ourGoal .logo-small {
   background-color: #00796B;
-  padding: 30px;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 32px;
 }
-/* line 17, ../sass/_module/_goal.scss */
+/* line 16, ../sass/_module/_goal.scss */
 .ourGoal h1 {
   font-family: "Bree Serif", serif;
 }
-/* line 20, ../sass/_module/_goal.scss */
+/* line 19, ../sass/_module/_goal.scss */
 .ourGoal__button {
   margin: 50px;
   background-color: #00796B;
@@ -199,9 +188,22 @@
   transition: 0.3s;
   font-size: 1.1em;
 }
-/* line 30, ../sass/_module/_goal.scss */
+/* line 29, ../sass/_module/_goal.scss */
 .ourGoal__button:hover {
   background-color: #004c40;
+}
+/* line 32, ../sass/_module/_goal.scss */
+.ourGoal--box {
+  padding: 25px;
+  transition: 0.5s;
+}
+/* line 35, ../sass/_module/_goal.scss */
+.ourGoal--box:hover {
+  background-color: #202728;
+  border-radius: 2px 2px 2px 2px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 /* line 1, ../sass/_module/_contact.scss */
