@@ -118,11 +118,10 @@
 
 /* line 61, ../sass/_module/_about.scss */
 .section-paragraph {
-  font-size: 1.2em;
-  font-family: "Bahnschrift Light";
+  font-size: 1.3em;
 }
 
-/* line 66, ../sass/_module/_about.scss */
+/* line 65, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
 }
@@ -165,7 +164,7 @@
 }
 /* line 8, ../sass/_module/_goal.scss */
 .ourGoal__contents {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 /* line 11, ../sass/_module/_goal.scss */
 .ourGoal .logo-small {
