@@ -221,42 +221,49 @@
   background-color: #1b2122;
   color: #fff;
   font-size: 1.2em;
-
 }
-/* line 8, ../sass/_module/_contact.scss */
-.contact__sitemap {
-  padding: 0px;
-}
-/* line 11, ../sass/_module/_contact.scss */
->>>>>>> baaaf082bd568f0773b29cd3f0ece55eeb772f78
-.contact__sitemap li {
-  list-style: none;
-  padding: 0px;
-}
-
-.contact__sitemap a {
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.contact__sitemap a:hover {
-  border-left: 4px solid #004c40;
-  padding-left: 10px;
-}
-
+/* line 5, ../sass/_module/_contact.scss */
 .contact h1 {
   font-family: "Bree Serif", serif;
+  margin: 30px;
 }
-
-/* line 30, ../sass/_module/_contact.scss */
+/* line 9, ../sass/_module/_contact.scss */
 .contact h4 {
   font-weight: bold;
   padding-bottom: 10px;
   border-bottom: 2px solid #00796B;
 }
+/* line 15, ../sass/_module/_contact.scss */
+.contact__aboutus a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* line 19, ../sass/_module/_contact.scss */
+.contact__aboutus a:hover {
+  color: #fff;
+}
+/* line 23, ../sass/_module/_contact.scss */
+.contact__sitemap {
+  padding: 0px;
+}
+/* line 26, ../sass/_module/_contact.scss */
+.contact__sitemap li {
+  list-style: none;
+  padding: 0px;
+}
+/* line 30, ../sass/_module/_contact.scss */
+.contact__sitemap a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 34, ../sass/_module/_contact.scss */
+.contact__sitemap a:hover {
+  border-left: 4px solid #004c40;
+  padding-left: 10px;
+}
 
-/* line 37, ../sass/_module/_contact.scss */
+/* line 41, ../sass/_module/_contact.scss */
 .social {
   display: inline-block;
   width: 36px;
@@ -268,47 +275,50 @@
   transition: all 0.5s ease-in-out;
 }
 
-
-/* line 47, ../sass/_module/_contact.scss */
+/* line 51, ../sass/_module/_contact.scss */
 .social svg {
   transition: transform 0.5s ease-out;
 }
 
-
+/* line 54, ../sass/_module/_contact.scss */
 .social:hover {
   border-radius: 10%;
   transform: rotate(405deg);
 }
 
-
+/* line 58, ../sass/_module/_contact.scss */
 .social:hover svg {
   transform: rotate(315deg);
 }
 
+/* line 62, ../sass/_module/_contact.scss */
 .facebook {
   fill: #3b5998;
 }
 
-
+/* line 65, ../sass/_module/_contact.scss */
 .facebook:hover {
   fill: white;
   background: #3b5998;
 }
 
-
+/* line 70, ../sass/_module/_contact.scss */
 .twitter {
   fill: #4099FF;
 }
 
+/* line 73, ../sass/_module/_contact.scss */
 .twitter:hover {
   fill: white;
   background: #4099FF;
 }
 
+/* line 77, ../sass/_module/_contact.scss */
 .googleplus {
   fill: #d34836;
 }
 
+/* line 81, ../sass/_module/_contact.scss */
 .googleplus:hover {
   fill: white;
   background: #d34836;
