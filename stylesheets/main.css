@@ -399,23 +399,24 @@
 /* line 20, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals ul {
   padding: 20px 50px;
+  font-size: 1.2em;
 }
-/* line 23, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 24, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals ul li {
   line-height: 25px;
 }
-/* line 26, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 27, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals a {
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 31, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 32, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__hr {
   border-top: 2px solid #E3E7E8;
   margin: 0px;
 }
-/* line 35, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 36, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals .thumbnail {
   border-radius: 0px;
 }
