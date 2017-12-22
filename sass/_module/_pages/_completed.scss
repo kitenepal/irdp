@@ -1,7 +1,9 @@
 .completed{
-	margin: 50px 10px;
-	padding:15px 15px;
+	margin: 30px 10px 0px 30px;
 	color: $darkblue;
+	&__textcontents{
+		font-size: $paragraph-text;
+	}
 	h3{
 		margin: 0px;
 		font-weight: bold;
@@ -19,7 +21,8 @@
 		transition: 0.3s;
 	}
 	&__hr{
-		border-top: 2px solid $darkblue;
+		border-top: 2px solid $secondary-color;
+		margin-top: 0px;
 	}
 }
 
