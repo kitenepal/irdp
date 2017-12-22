@@ -472,33 +472,37 @@
 
 /* line 1, ../sass/_module/_pages/_ongoing.scss */
 .ongoing {
-  margin: 50px 10px;
-  padding: 15px 15px;
+  margin: 30px 10px 0px 30px;
   color: #1b2122;
 }
-/* line 5, ../sass/_module/_pages/_ongoing.scss */
+/* line 4, ../sass/_module/_pages/_ongoing.scss */
 .ongoing h3 {
   margin: 0px;
   font-weight: bold;
 }
-/* line 9, ../sass/_module/_pages/_ongoing.scss */
+/* line 8, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__left {
   padding: 10px 25px;
 }
-/* line 12, ../sass/_module/_pages/_ongoing.scss */
+/* line 11, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__right {
   text-align: right;
   padding: 10px 25px;
 }
-/* line 16, ../sass/_module/_pages/_ongoing.scss */
+/* line 15, ../sass/_module/_pages/_ongoing.scss */
 .ongoing a {
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 21, ../sass/_module/_pages/_ongoing.scss */
+/* line 20, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__textcontents {
+  font-size: 1.2em;
+}
+/* line 23, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__hr {
-  border-top: 2px solid #1b2122;
+  border-top: 2px solid #E3E7E8;
+  margin-top: 0px;
 }
 
 /* line 1, ../sass/_module/_pages/_completed.scss */

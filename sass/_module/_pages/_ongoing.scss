@@ -1,6 +1,5 @@
 .ongoing{
-	margin: 50px 10px;
-	padding:15px 15px;
+	margin: 30px 10px 0px 30px;
 	color: $darkblue;
 	h3{
 		margin: 0px;
@@ -18,8 +17,12 @@
 		text-decoration: none;
 		transition: 0.3s;
 	}
+	&__textcontents{
+		font-size: $paragraph-text;
+	}
 	&__hr{
-		border-top: 2px solid $darkblue;
+		border-top: 2px solid $secondary-color;
+		margin-top: 0px;
 	}
 }
 
