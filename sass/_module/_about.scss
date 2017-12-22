@@ -10,6 +10,9 @@
 	position: relative;
 	z-index: 0;
 	background-color: $secondary-color;
+	h1{
+		margin: $heading-margin;
+	}
 	&__button--white{
 		border-radius: 0px;
 		outline: none;
