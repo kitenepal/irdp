@@ -568,3 +568,9 @@
     text-align: center;
   }
 }
+
+/* line 46, ../sass/_module/_pages/_contact.scss */
+.contactForm__well-lg {
+  margin: 15px;
+  padding: 25px;
+}
