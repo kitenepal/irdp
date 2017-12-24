@@ -12,7 +12,7 @@
 
 /* line 10, ../sass/_base/_base.scss */
 .md--page-header {
-  margin: 30px 0px;
+  margin: 80px 0px;
   color: #1b2122;
 }
 /* line 13, ../sass/_base/_base.scss */
@@ -54,33 +54,31 @@
   background-color: #00796B;
   border-color: #00796B;
   border-bottom: 1px solid #004c40;
-  z-index: 5;
-  position: relative;
 }
 
-/* line 10, ../sass/_module/_nav.scss */
+/* line 8, ../sass/_module/_nav.scss */
 .navbar-brand {
   line-height: 15px;
   padding: 10px 15px;
 }
 
-/* line 15, ../sass/_module/_nav.scss */
+/* line 13, ../sass/_module/_nav.scss */
 .main-logo {
   font-weight: bold;
   font-size: 1.3em;
 }
 
-/* line 20, ../sass/_module/_nav.scss */
+/* line 18, ../sass/_module/_nav.scss */
 .sub-logo {
   font-size: 0.8em;
   font-weight: normal;
 }
 
-/* line 25, ../sass/_module/_nav.scss */
+/* line 23, ../sass/_module/_nav.scss */
 .navbar-nav > li {
   transition: .3s;
 }
-/* line 27, ../sass/_module/_nav.scss */
+/* line 25, ../sass/_module/_nav.scss */
 .navbar-nav > li:hover {
   background-color: #004c40;
   color: #00796B;
@@ -570,4 +568,3 @@
     text-align: center;
   }
 }
-
