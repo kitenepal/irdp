@@ -731,4 +731,9 @@
   top: 5px;
 }
 
+/* line 42, ../sass/_module/_gotop.scss */
+a {
+  outline: 0;
+}
+
 /* Extra Things */
