@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>IRDP | Completed Programs</title>
+  <title>IRDP | Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap.css">
@@ -47,68 +47,63 @@
     <!-- /.container -->
   </nav>
   <!-- /.navbar -->
-  <!-- Our Goals section -->
-  <section>
+  <!-- Contact -->
+  <section class="contactForm">
     <div class="container">
       <div class="row">
-        <div class="completed">
-          <div container>
+        <div class="col-sm-6 contactForm__left">
+          <h3>Contact Us</h3></div>
+        <div class="col-sm-6 contactForm__right"> <a href="../index.html">HOME</a> | Contact Us </div>
+      </div>
+      <hr class="contactForm__hr">
+      <div class="row">
+        <div class="well well-lg">
+          <form>
             <div class="row">
-              <div class="col-sm-6 completed__left">
-                <h3>Completed Programs</h3> </div>
-              <div class="col-sm-6 completed__right"> <a href="../index.html">HOME</a> | Completed Programs </div>
-            </div>
-            <hr class="completed__hr">
-          </div>
-          <div class="completed__textcontents">
-            Extra-Curriculum activities program had done in different 25 schools in Sindhuli by organization.
-            <dd>- Quality education improvement plan survey of 25 school of Sindhuli by organization.</dd>
-            <dd>- Sanitation and School health program by organization.</dd>
-            <dd>- Child right program (Child club and child clubnetwork formation) and child right training supported by DDO Sindhuli.</dd>
-            <dd>- Mosquito awareness program in Dhadauli, ladhavirsirthauli VDCS and Bhiman area is organized by ASHMAN Nepal manpower is managed by IRDP Sindhuli.</dd><br/>
-            <ul>
-              <li>
-                Concept of education system of future federal state workshop through  ASHMAN Nepal  by UNESCO Nepal.
-              </li>
-              <li>
-                Tarpaulin (tent) distribution for earthquake victim people through ASHMAN Nepal  bywelt hunger half.
-              </li>
-              <li>Planning effective delivery education for future federal state by UNESCO.</li>
-              <li>PFA(psycho-socio First Aids) ,monsoon preparedness and back to school training for social and health teachers of four resource Centre(167 schools) of Sindhuli supported by UNICEF through Restless Development country office Kathmandu Nepal</li>
-              <li>Workshop on ’counseling  for adolescent girls and young women’supported by UNESCO Nepal.</li>
-              <li>14 temporary toilets are constructed in emergency phase.</li>
-              <li>Wash kits distribution in 20 schools.</li>
-              <li>Educational kits distribution in187 schools.</li>
-            </ul>
-          </div>
-          <div class="col-xs-18 col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1490424660416-359912d314b3?auto=format&fit=crop&w=1500&q=80" alt="">
-              <div class="caption">
-                <h4 class="text-center">Education improvement</h4>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">
+                    Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                </div>
+                <div class="form-group">
+                  <label for="email">
+                    Email Address</label>
+                  <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                    </span>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">
+                    Subject</label>
+                  <select id="subject" name="subject" class="form-control" required="required">
+                    <option value="" selected="">Choose One:</option>
+                    <option value="">General Customer Service</option>
+                    <option value="">Suggestions</option>
+                    <option value="">Donation</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">
+                    Message</label>
+                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="contactForm__button pull-right" id="btnContactUs">
+                  Send Message</button>
               </div>
             </div>
-          </div>
-          <div class="col-xs-18 col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?auto=format&fit=crop&w=748&q=80" alt="">
-              <div class="caption">
-                <h4 class="text-center">Educational kits</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-18 col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1497528892195-b4ee7ea4f8bc?auto=format&fit=crop&w=750&q=80" alt="">
-              <div class="caption">
-                <h4 class="text-center">Distribution for earthquake victim</h4>
-              </div>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
+  <!-- /Contact -->
   <!-- Contact section -->
   <section class="contact">
     <div class="container">
@@ -118,23 +113,23 @@
           <div class="contact__aboutus">
             <h4> About Us </h4>
             <p>
-              Integrated Rural Development Program (IRDP) SIDHULI is one of the non-profitable organization.It is established in 2068 B.S. It is different organization than conducting other organizations in Sindhhuli District .The organization has own existence on the field of the community .The ambition of this organization is differ then conducting other organization.
+              Integrated Rural Development Program (IRDP) SIDHULI is one of the non-profitable organization. It is established in 2068 B.S. It is different organization than conducting other organizations in Sindhhuli District. The organization has own existence on the field of the community. <a href="about.html"> Read More </a>
             </p>
           </div>
         </div>
         <div class="col-sm-3">
           <h4>Site Map</h4>
-            <ul class="contact__sitemap">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="ourGoal.html">Our Goals</a></li>
-              <li><a href="completed.html">Completed Projects</a></li>
-              <li><a href="ongoing.html">Ongoing Projects</a></li>
-              <li><a href="pages/allmember.html">Executive Board Members</a></li>
-              <li><a href="allmember.html">Advisory Committee</a></li>
-              <li><a href="allmember.html">Resource Person</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <ul class="contact__sitemap">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ourGoal.html">Our Goals</a></li>
+            <li><a href="completed.html">Completed Projects</a></li>
+            <li><a href="ongoing.html">Ongoing Projects</a></li>
+            <li><a href="allmember.html">Executive Board Members</a></li>
+            <li><a href="allmember.html">Advisory Committee</a></li>
+            <li><a href="allmember.html">Resource Person</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
         <div class="col-sm-3">
           <h4> Contact Info </h4>
