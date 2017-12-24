@@ -405,7 +405,7 @@
 }
 /* line 18, ../sass/_module/_pages/_about-us.scss */
 .about-us__left {
-  padding: 10px 25px;
+  padding: 10px 15px;
 }
 /* line 21, ../sass/_module/_pages/_about-us.scss */
 .about-us__right {
@@ -423,6 +423,10 @@
   border-top: 2px solid #E3E7E8;
   margin: 0px;
 }
+/* line 34, ../sass/_module/_pages/_about-us.scss */
+.about-us .thumbnail {
+  border-radius: 0px;
+}
 
 /* line 1, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals {
@@ -438,7 +442,7 @@
 /* line 13, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__left {
   text-align: left;
-  padding: 10px 25px;
+  padding: 10px 15px;
 }
 /* line 17, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__right {
@@ -482,7 +486,7 @@
 }
 /* line 8, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__left {
-  padding: 10px 25px;
+  padding: 10px 15px;
 }
 /* line 11, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__right {
@@ -504,6 +508,10 @@
   border-top: 2px solid #E3E7E8;
   margin-top: 0px;
 }
+/* line 27, ../sass/_module/_pages/_ongoing.scss */
+.ongoing .thumbnail {
+  border-radius: 0px;
+}
 
 /* line 1, ../sass/_module/_pages/_completed.scss */
 .completed {
@@ -521,7 +529,7 @@
 }
 /* line 11, ../sass/_module/_pages/_completed.scss */
 .completed__left {
-  padding: 10px 25px;
+  padding: 10px 15px;
 }
 /* line 14, ../sass/_module/_pages/_completed.scss */
 .completed__right {
@@ -538,6 +546,27 @@
 .completed__hr {
   border-top: 2px solid #E3E7E8;
   margin-top: 0px;
+}
+/* line 27, ../sass/_module/_pages/_completed.scss */
+.completed .thumbnail {
+  border-radius: 0px;
+}
+
+/* line 32, ../sass/_module/_pages/_completed.scss */
+.dashed {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+/* line 36, ../sass/_module/_pages/_completed.scss */
+.dashed > li {
+  text-indent: -10px;
+}
+
+/* line 39, ../sass/_module/_pages/_completed.scss */
+.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
 }
 
 /* line 1, ../sass/_module/_pages/_allmember.scss */

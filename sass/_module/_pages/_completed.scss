@@ -1,7 +1,7 @@
 .completed{
 	margin: 30px 10px 0px 30px;
 	color: $darkblue;
-	&__textcontents{
+		&__textcontents{
 		font-size: $paragraph-text;
 	}
 	h3{
@@ -9,7 +9,7 @@
 		font-weight: bold;
 	}
 	&__left{
-		padding: 10px 25px;
+		padding: 10px 15px;
 	}
 	&__right{
 		text-align: right;
@@ -24,5 +24,19 @@
 		border-top: 2px solid $secondary-color;
 		margin-top: 0px;
 	}
+	.thumbnail{
+		border-radius: 0px;
+	}
 }
 
+.dashed {
+	list-style-type: none;
+	margin-left: -30px;
+}
+.dashed > li {
+	text-indent: -10px;
+}
+.dashed > li:before {
+	content: "- ";
+	text-indent: -5px;
+}
