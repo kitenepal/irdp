@@ -1,20 +1,26 @@
 .member-info{
-	position: absolute;
-	bottom: 0px;
-	right: 25px;
-	color: $white;
+  border: 1px solid #dadada;
+  margin-top: 10px;
+  border-radius: 3px;
+  background: #f1f1f1;
 }
 
-.content-circle{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: rgb(18, 240, 70);
-	margin: 0px auto;
-	.memb-name{
-		font-weight: bold;
+.image-sizing{
+	margin: 10px 0px;
+}
+
+.text-sizing{
+	margin-top: 50px;
+}
+
+@media(max-width: 1200px){
+	.text-sizing{
+		margin-top: 20px;
 	}
 }
 
-
-
+@media(max-width: 768px){
+	.member-info{
+		text-align: center;
+	}
+}

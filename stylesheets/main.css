@@ -7,12 +7,12 @@
 /* line 5, ../sass/_base/_base.scss */
 .sub-header {
   font-family: "Bree Serif", serif;
+  padding-top: 20px;
 }
 
-/* line 9, ../sass/_base/_base.scss */
+/* line 10, ../sass/_base/_base.scss */
 .md--page-header {
-  margin: 50px 10px;
-  padding: 15px 15px;
+  margin: 30px 0px;
   color: #1b2122;
 }
 /* line 13, ../sass/_base/_base.scss */
@@ -405,7 +405,7 @@
 }
 /* line 18, ../sass/_module/_pages/_about-us.scss */
 .about-us__left {
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 /* line 21, ../sass/_module/_pages/_about-us.scss */
 .about-us__right {
@@ -423,10 +423,6 @@
   border-top: 2px solid #E3E7E8;
   margin: 0px;
 }
-/* line 34, ../sass/_module/_pages/_about-us.scss */
-.about-us .thumbnail {
-  border-radius: 0px;
-}
 
 /* line 1, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals {
@@ -442,7 +438,7 @@
 /* line 13, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__left {
   text-align: left;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 /* line 17, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__right {
@@ -486,7 +482,7 @@
 }
 /* line 8, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__left {
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 /* line 11, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__right {
@@ -508,10 +504,6 @@
   border-top: 2px solid #E3E7E8;
   margin-top: 0px;
 }
-/* line 27, ../sass/_module/_pages/_ongoing.scss */
-.ongoing .thumbnail {
-  border-radius: 0px;
-}
 
 /* line 1, ../sass/_module/_pages/_completed.scss */
 .completed {
@@ -529,7 +521,7 @@
 }
 /* line 11, ../sass/_module/_pages/_completed.scss */
 .completed__left {
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 /* line 14, ../sass/_module/_pages/_completed.scss */
 .completed__right {
@@ -547,100 +539,35 @@
   border-top: 2px solid #E3E7E8;
   margin-top: 0px;
 }
-/* line 27, ../sass/_module/_pages/_completed.scss */
-.completed .thumbnail {
-  border-radius: 0px;
-}
-
-/* line 32, ../sass/_module/_pages/_completed.scss */
-.dashed {
-  list-style-type: none;
-  margin-left: -30px;
-}
-
-/* line 36, ../sass/_module/_pages/_completed.scss */
-.dashed > li {
-  text-indent: -10px;
-}
-
-/* line 39, ../sass/_module/_pages/_completed.scss */
-.dashed > li:before {
-  content: "- ";
-  text-indent: -5px;
-}
 
 /* line 1, ../sass/_module/_pages/_allmember.scss */
 .member-info {
-  position: absolute;
-  bottom: 0px;
-  right: 25px;
-  color: #fff;
+  border: 1px solid #dadada;
+  margin-top: 10px;
+  border-radius: 3px;
+  background: #f1f1f1;
 }
 
 /* line 8, ../sass/_module/_pages/_allmember.scss */
-.content-circle {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #12f046;
-  margin: 0px auto;
-}
-/* line 14, ../sass/_module/_pages/_allmember.scss */
-.content-circle .memb-name {
-  font-weight: bold;
+.image-sizing {
+  margin: 10px 0px;
 }
 
-/* line 1, ../sass/_module/_pages/_contact.scss */
-.contactForm {
-  margin-top: 15px;
-}
-/* line 3, ../sass/_module/_pages/_contact.scss */
-.contactForm__button {
-  background-color: #004c40;
-  border-radius: 0px;
-  outline: none;
-  border: none;
-  padding: 8px 25px;
-  transition: 0.3s;
-  font-size: 1.1em;
-  color: #fff;
-}
-/* line 13, ../sass/_module/_pages/_contact.scss */
-.contactForm__button:hover {
-  background-color: #00796B;
+/* line 12, ../sass/_module/_pages/_allmember.scss */
+.text-sizing {
+  margin-top: 50px;
 }
 
-/* line 18, ../sass/_module/_pages/_contact.scss */
-.contactForm {
-  margin: 30px 10px 0px 30px;
-  color: #1b2122;
+@media (max-width: 1200px) {
+  /* line 17, ../sass/_module/_pages/_allmember.scss */
+  .text-sizing {
+    margin-top: 20px;
+  }
 }
-/* line 21, ../sass/_module/_pages/_contact.scss */
-.contactForm__textcontents {
-  font-size: 1.2em;
+@media (max-width: 768px) {
+  /* line 23, ../sass/_module/_pages/_allmember.scss */
+  .member-info {
+    text-align: center;
+  }
 }
-/* line 24, ../sass/_module/_pages/_contact.scss */
-.contactForm h3 {
-  margin: 0px;
-  font-weight: bold;
-}
-/* line 28, ../sass/_module/_pages/_contact.scss */
-.contactForm__left {
-  padding: 10px 15px;
-}
-/* line 31, ../sass/_module/_pages/_contact.scss */
-.contactForm__right {
-  text-align: right;
-  padding: 10px 25px;
-}
-/* line 35, ../sass/_module/_pages/_contact.scss */
-.contactForm a {
-  font-weight: bold;
-  text-decoration: none;
-  transition: 0.3s;
-}
-/* line 40, ../sass/_module/_pages/_contact.scss */
-.contactForm__hr {
-  border-top: 2px solid #E3E7E8;
-  margin-top: 0px;
-}
+
