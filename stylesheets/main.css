@@ -389,7 +389,7 @@
 }
 /* line 7, ../sass/_module/_pages/_about-us.scss */
 .about-us__box {
-  margin: 0px 10px 0px 30px;
+  margin: 50px 10px 0px 30px;
 }
 /* line 10, ../sass/_module/_pages/_about-us.scss */
 .about-us h3 {
@@ -403,7 +403,7 @@
 }
 /* line 18, ../sass/_module/_pages/_about-us.scss */
 .about-us__left {
-  padding: 10px 25px;
+  padding: 10px 15px;
 }
 /* line 21, ../sass/_module/_pages/_about-us.scss */
 .about-us__right {
@@ -421,10 +421,14 @@
   border-top: 2px solid #E3E7E8;
   margin: 0px;
 }
+/* line 34, ../sass/_module/_pages/_about-us.scss */
+.about-us .thumbnail {
+  border-radius: 0px;
+}
 
 /* line 1, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals {
-  margin: 20px 0px;
+  margin: 70px 0px;
   padding: 15px 15px;
   color: #1b2122;
 }
@@ -436,7 +440,7 @@
 /* line 13, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__left {
   text-align: left;
-  padding: 10px 25px;
+  padding: 10px 15px;
 }
 /* line 17, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__right {
@@ -470,7 +474,7 @@
 
 /* line 1, ../sass/_module/_pages/_ongoing.scss */
 .ongoing {
-  margin: 30px 10px 0px 30px;
+  margin: 90px 10px 0px 30px;
   color: #1b2122;
 }
 /* line 4, ../sass/_module/_pages/_ongoing.scss */
@@ -480,12 +484,12 @@
 }
 /* line 8, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__left {
-  padding: 10px 25px;
+  padding: 10px 0px;
 }
 /* line 11, ../sass/_module/_pages/_ongoing.scss */
 .ongoing__right {
   text-align: right;
-  padding: 10px 25px;
+  padding: 10px 40px;
 }
 /* line 15, ../sass/_module/_pages/_ongoing.scss */
 .ongoing a {
@@ -501,11 +505,16 @@
 .ongoing__hr {
   border-top: 2px solid #E3E7E8;
   margin-top: 0px;
+  margin-left: -20px;
+}
+/* line 28, ../sass/_module/_pages/_ongoing.scss */
+.ongoing .thumbnail {
+  border-radius: 0px;
 }
 
 /* line 1, ../sass/_module/_pages/_completed.scss */
 .completed {
-  margin: 30px 10px 0px 30px;
+  margin: 90px 10px 0px 30px;
   color: #1b2122;
 }
 /* line 4, ../sass/_module/_pages/_completed.scss */
@@ -519,12 +528,12 @@
 }
 /* line 11, ../sass/_module/_pages/_completed.scss */
 .completed__left {
-  padding: 10px 25px;
+  padding: 10px 0px;
 }
 /* line 14, ../sass/_module/_pages/_completed.scss */
 .completed__right {
   text-align: right;
-  padding: 10px 25px;
+  padding: 10px 40px;
 }
 /* line 18, ../sass/_module/_pages/_completed.scss */
 .completed a {
@@ -536,6 +545,28 @@
 .completed__hr {
   border-top: 2px solid #E3E7E8;
   margin-top: 0px;
+  margin-left: -20px;
+}
+/* line 28, ../sass/_module/_pages/_completed.scss */
+.completed .thumbnail {
+  border-radius: 0px;
+}
+
+/* line 33, ../sass/_module/_pages/_completed.scss */
+.dashed {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+/* line 37, ../sass/_module/_pages/_completed.scss */
+.dashed > li {
+  text-indent: -10px;
+}
+
+/* line 40, ../sass/_module/_pages/_completed.scss */
+.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
 }
 
 /* line 1, ../sass/_module/_pages/_allmember.scss */
@@ -551,7 +582,23 @@
   margin: 10px 0px;
 }
 
+/* line 12, ../sass/_module/_pages/_allmember.scss */
+.text-sizing {
+  margin-top: 50px;
+}
 
+@media (max-width: 1200px) {
+  /* line 17, ../sass/_module/_pages/_allmember.scss */
+  .text-sizing {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 23, ../sass/_module/_pages/_allmember.scss */
+  .member-info {
+    text-align: center;
+  }
+}
 /* line 1, ../sass/_module/_gotop.scss */
 #return-to-top {
   position: fixed;
@@ -598,30 +645,6 @@
 #return-to-top:hover i {
   color: #fff;
   top: 5px;
-}
-
-/* line 12, ../sass/_module/_pages/_allmember.scss */
-.text-sizing {
-  margin-top: 50px;
-}
-
-@media (max-width: 1200px) {
-  /* line 17, ../sass/_module/_pages/_allmember.scss */
-  .text-sizing {
-    margin-top: 20px;
-  }
-}
-@media (max-width: 768px) {
-  /* line 23, ../sass/_module/_pages/_allmember.scss */
-  .member-info {
-    text-align: center;
-  }
-}
-
-/* line 46, ../sass/_module/_pages/_contact.scss */
-.contactForm__well-lg {
-  margin: 15px;
-  padding: 25px;
 }
 
 /* Extra Things */
