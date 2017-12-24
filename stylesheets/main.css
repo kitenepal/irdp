@@ -621,6 +621,68 @@
     text-align: center;
   }
 }
+/* line 2, ../sass/_module/_pages/_contact.scss */
+.contactForm__button {
+  background-color: #004c40;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  padding: 8px 25px;
+  transition: 0.3s;
+  font-size: 1.1em;
+  color: #fff;
+}
+/* line 12, ../sass/_module/_pages/_contact.scss */
+.contactForm__button:hover {
+  background-color: #00796B;
+}
+
+/* line 17, ../sass/_module/_pages/_contact.scss */
+.contactForm {
+  margin: 90px 15px 40px 40px;
+  color: #1b2122;
+}
+/* line 20, ../sass/_module/_pages/_contact.scss */
+.contactForm__textcontents {
+  font-size: 1.2em;
+}
+/* line 23, ../sass/_module/_pages/_contact.scss */
+.contactForm h3 {
+  margin: 0px;
+  font-weight: bold;
+}
+/* line 27, ../sass/_module/_pages/_contact.scss */
+.contactForm__left {
+  padding: 10px 15px;
+}
+/* line 30, ../sass/_module/_pages/_contact.scss */
+.contactForm__right {
+  text-align: right;
+  padding: 10px 25px;
+}
+/* line 34, ../sass/_module/_pages/_contact.scss */
+.contactForm a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 39, ../sass/_module/_pages/_contact.scss */
+.contactForm__hr {
+  border-top: 2px solid #E3E7E8;
+  margin-top: 0px;
+}
+
+/* line 45, ../sass/_module/_pages/_contact.scss */
+.contactForm__well-lg {
+  margin: 20px;
+  padding: 25px;
+}
+
+/* line 50, ../sass/_module/_pages/_contact.scss */
+.contact-details {
+  font-size: 1.2em;
+}
+
 /* line 1, ../sass/_module/_gotop.scss */
 #return-to-top {
   position: fixed;

@@ -1,5 +1,4 @@
 .contactForm{
-	margin-top: 15px;
 	&__button{
 		background-color: $dark-primary;
 		border-radius: 0px;
@@ -16,7 +15,7 @@
 }
 
 .contactForm{
-	margin: 30px 10px 0px 30px;
+	margin: 90px 15px 40px 40px;
 	color: $darkblue;
 	&__textcontents{
 		font-size: $paragraph-text;
@@ -44,7 +43,10 @@
 }
 .contactForm{
 	&__well-lg{
-		margin: 15px;
+		margin: 20px;
 		padding: 25px;
 	}
+}
+.contact-details{
+	font-size: $paragraph-text;
 }
