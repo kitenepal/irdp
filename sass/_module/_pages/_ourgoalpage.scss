@@ -1,5 +1,6 @@
 .ourgoals{
-	margin: 50px 10px;
+	//margin: 30px 10px;
+	margin: 20px 0px;
 	padding:15px 15px;
 	color: $darkblue;
 	&__heading{
@@ -19,6 +20,7 @@
 	}
 	ul{
 		padding: 20px 50px;
+		font-size: $paragraph-text;
 	}
 	ul li{
 		line-height: 25px;

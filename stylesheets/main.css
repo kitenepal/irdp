@@ -103,6 +103,10 @@
   background-color: #E3E7E8;
 }
 /* line 12, ../sass/_module/_about.scss */
+.about h1 {
+  margin: 30px;
+}
+/* line 15, ../sass/_module/_about.scss */
 .about__button--white {
   border-radius: 0px;
   outline: none;
@@ -113,11 +117,11 @@
   background-color: #fff;
   color: #00796B;
 }
-/* line 22, ../sass/_module/_about.scss */
+/* line 25, ../sass/_module/_about.scss */
 .about__button--white:hover {
   background-color: #E3E7E8;
 }
-/* line 25, ../sass/_module/_about.scss */
+/* line 28, ../sass/_module/_about.scss */
 .about__button--green {
   border-radius: 0px;
   outline: none;
@@ -128,16 +132,16 @@
   background-color: #00796B;
   color: #E3E7E8;
 }
-/* line 35, ../sass/_module/_about.scss */
+/* line 38, ../sass/_module/_about.scss */
 .about__button--green:hover {
   background-color: #004c40;
 }
-/* line 38, ../sass/_module/_about.scss */
+/* line 41, ../sass/_module/_about.scss */
 .about .img-thumbnail {
   border-radius: 0px;
 }
 
-/* line 43, ../sass/_module/_about.scss */
+/* line 46, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
   padding: 50px 0px;
@@ -146,23 +150,23 @@
   z-index: -1;
 }
 
-/* line 51, ../sass/_module/_about.scss */
+/* line 54, ../sass/_module/_about.scss */
 .skew-rev {
   transform: skew(0deg, -3deg);
 }
 
-/* line 56, ../sass/_module/_about.scss */
+/* line 59, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
   padding-bottom: 50px;
 }
 
-/* line 61, ../sass/_module/_about.scss */
+/* line 64, ../sass/_module/_about.scss */
 .section-paragraph {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
-/* line 65, ../sass/_module/_about.scss */
+/* line 68, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
 }
@@ -199,23 +203,24 @@
   background-color: #1b2122;
   color: #fff;
 }
-/* line 5, ../sass/_module/_goal.scss */
+/* line 4, ../sass/_module/_goal.scss */
 .ourGoal__wrap {
   padding-top: 30px;
 }
-/* line 8, ../sass/_module/_goal.scss */
+/* line 7, ../sass/_module/_goal.scss */
 .ourGoal__contents {
-  margin-top: 50px;
+  margin-top: 0px;
 }
-/* line 11, ../sass/_module/_goal.scss */
+/* line 10, ../sass/_module/_goal.scss */
 .ourGoal .logo-small {
   background-color: #00796B;
   border-radius: 50%;
   font-size: 32px;
 }
-/* line 16, ../sass/_module/_goal.scss */
+/* line 15, ../sass/_module/_goal.scss */
 .ourGoal h1 {
   font-family: "Bree Serif", serif;
+  margin: 30px;
 }
 /* line 19, ../sass/_module/_goal.scss */
 .ourGoal__button {
@@ -227,17 +232,18 @@
   padding: 8px 25px;
   transition: 0.3s;
   font-size: 1.1em;
+  color: #fff;
 }
-/* line 29, ../sass/_module/_goal.scss */
+/* line 30, ../sass/_module/_goal.scss */
 .ourGoal__button:hover {
   background-color: #004c40;
 }
-/* line 32, ../sass/_module/_goal.scss */
+/* line 33, ../sass/_module/_goal.scss */
 .ourGoal--box {
   padding: 25px;
   transition: 0.5s;
 }
-/* line 35, ../sass/_module/_goal.scss */
+/* line 36, ../sass/_module/_goal.scss */
 .ourGoal--box:hover {
   background-color: #202728;
   border-radius: 2px 2px 2px 2px;
@@ -246,45 +252,59 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
+/* line 49, ../sass/_module/_goal.scss */
+.ourGoal--box {
+  font-size: 1.2em;
+}
+
 /* line 1, ../sass/_module/_contact.scss */
 .contact {
   background-color: #1b2122;
   color: #fff;
+  font-size: 1.2em;
 }
-/* line 7, ../sass/_module/_contact.scss */
+/* line 5, ../sass/_module/_contact.scss */
+.contact h1 {
+  font-family: "Bree Serif", serif;
+  margin: 30px;
+}
+/* line 9, ../sass/_module/_contact.scss */
+.contact h4 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #00796B;
+}
+/* line 15, ../sass/_module/_contact.scss */
+.contact__aboutus a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* line 19, ../sass/_module/_contact.scss */
+.contact__aboutus a:hover {
+  color: #fff;
+}
+/* line 23, ../sass/_module/_contact.scss */
 .contact__sitemap {
   padding: 0px;
 }
-/* line 10, ../sass/_module/_contact.scss */
+/* line 26, ../sass/_module/_contact.scss */
 .contact__sitemap li {
   list-style: none;
   padding: 0px;
 }
-/* line 14, ../sass/_module/_contact.scss */
+/* line 30, ../sass/_module/_contact.scss */
 .contact__sitemap a {
   color: white;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 18, ../sass/_module/_contact.scss */
+/* line 34, ../sass/_module/_contact.scss */
 .contact__sitemap a:hover {
   border-left: 4px solid #004c40;
   padding-left: 10px;
 }
 
-/* line 25, ../sass/_module/_contact.scss */
-.contact h1 {
-  font-family: "Bree Serif", serif;
-}
-
-/* line 29, ../sass/_module/_contact.scss */
-.contact h4 {
-  font-family: "Bree Serif", serif;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #00796B;
-}
-
-/* line 36, ../sass/_module/_contact.scss */
+/* line 41, ../sass/_module/_contact.scss */
 .social {
   display: inline-block;
   width: 36px;
@@ -296,50 +316,50 @@
   transition: all 0.5s ease-in-out;
 }
 
-/* line 46, ../sass/_module/_contact.scss */
+/* line 51, ../sass/_module/_contact.scss */
 .social svg {
   transition: transform 0.5s ease-out;
 }
 
-/* line 49, ../sass/_module/_contact.scss */
+/* line 54, ../sass/_module/_contact.scss */
 .social:hover {
   border-radius: 10%;
   transform: rotate(405deg);
 }
 
-/* line 53, ../sass/_module/_contact.scss */
+/* line 58, ../sass/_module/_contact.scss */
 .social:hover svg {
   transform: rotate(315deg);
 }
 
-/* line 57, ../sass/_module/_contact.scss */
+/* line 62, ../sass/_module/_contact.scss */
 .facebook {
   fill: #3b5998;
 }
 
-/* line 60, ../sass/_module/_contact.scss */
+/* line 65, ../sass/_module/_contact.scss */
 .facebook:hover {
   fill: white;
   background: #3b5998;
 }
 
-/* line 65, ../sass/_module/_contact.scss */
+/* line 70, ../sass/_module/_contact.scss */
 .twitter {
   fill: #4099FF;
 }
 
-/* line 68, ../sass/_module/_contact.scss */
+/* line 73, ../sass/_module/_contact.scss */
 .twitter:hover {
   fill: white;
   background: #4099FF;
 }
 
-/* line 72, ../sass/_module/_contact.scss */
+/* line 77, ../sass/_module/_contact.scss */
 .googleplus {
   fill: #d34836;
 }
 
-/* line 76, ../sass/_module/_contact.scss */
+/* line 81, ../sass/_module/_contact.scss */
 .googleplus:hover {
   fill: white;
   background: #d34836;
@@ -350,7 +370,7 @@
   background-color: #004c40;
   color: #E3E7E8;
   text-align: center;
-  padding: 10px 0px;
+  padding: 15px 0px 5px 0px;
 }
 
 /* line 8, ../sass/_module/_footer.scss */
@@ -366,32 +386,39 @@
 
 /* line 4, ../sass/_module/_pages/_about-us.scss */
 .about-us {
-  margin: 50px 10px;
-  padding: 15px 15px;
+  margin: 30px 0px;
   color: #1b2122;
 }
-/* line 8, ../sass/_module/_pages/_about-us.scss */
+/* line 7, ../sass/_module/_pages/_about-us.scss */
+.about-us__box {
+  margin: 0px 10px 0px 30px;
+}
+/* line 10, ../sass/_module/_pages/_about-us.scss */
 .about-us h3 {
   margin: 0px;
   font-weight: bold;
 }
-/* line 12, ../sass/_module/_pages/_about-us.scss */
+/* line 14, ../sass/_module/_pages/_about-us.scss */
+.about-us h4 {
+  margin: 20px 0px 10px 0px;
+  font-weight: bold;
+}
+/* line 18, ../sass/_module/_pages/_about-us.scss */
 .about-us__left {
-  text-align: left;
   padding: 10px 25px;
 }
-/* line 16, ../sass/_module/_pages/_about-us.scss */
+/* line 21, ../sass/_module/_pages/_about-us.scss */
 .about-us__right {
   text-align: right;
   padding: 10px 25px;
 }
-/* line 20, ../sass/_module/_pages/_about-us.scss */
+/* line 25, ../sass/_module/_pages/_about-us.scss */
 .about-us a {
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 25, ../sass/_module/_pages/_about-us.scss */
+/* line 30, ../sass/_module/_pages/_about-us.scss */
 .about-us__hr {
   border-top: 2px solid #E3E7E8;
   margin: 0px;
@@ -399,47 +426,118 @@
 
 /* line 1, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals {
-  margin: 50px 10px;
+  margin: 20px 0px;
   padding: 15px 15px;
   color: #1b2122;
 }
-/* line 8, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 9, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals h3 {
   margin: 0px;
   font-weight: bold;
 }
-/* line 12, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 13, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__left {
   text-align: left;
   padding: 10px 25px;
 }
-/* line 16, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 17, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__right {
   text-align: right;
   padding: 10px 25px;
 }
-/* line 20, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 21, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals ul {
   padding: 20px 50px;
+  font-size: 1.2em;
 }
-/* line 23, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 25, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals ul li {
   line-height: 25px;
 }
-/* line 26, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 28, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals a {
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 31, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 33, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals__hr {
   border-top: 2px solid #E3E7E8;
   margin: 0px;
 }
-/* line 35, ../sass/_module/_pages/_ourgoalpage.scss */
+/* line 37, ../sass/_module/_pages/_ourgoalpage.scss */
 .ourgoals .thumbnail {
   border-radius: 0px;
+}
+
+/* line 1, ../sass/_module/_pages/_ongoing.scss */
+.ongoing {
+  margin: 30px 10px 0px 30px;
+  color: #1b2122;
+}
+/* line 4, ../sass/_module/_pages/_ongoing.scss */
+.ongoing h3 {
+  margin: 0px;
+  font-weight: bold;
+}
+/* line 8, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__left {
+  padding: 10px 25px;
+}
+/* line 11, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__right {
+  text-align: right;
+  padding: 10px 25px;
+}
+/* line 15, ../sass/_module/_pages/_ongoing.scss */
+.ongoing a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 20, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__textcontents {
+  font-size: 1.2em;
+}
+/* line 23, ../sass/_module/_pages/_ongoing.scss */
+.ongoing__hr {
+  border-top: 2px solid #E3E7E8;
+  margin-top: 0px;
+}
+
+/* line 1, ../sass/_module/_pages/_completed.scss */
+.completed {
+  margin: 30px 10px 0px 30px;
+  color: #1b2122;
+}
+/* line 4, ../sass/_module/_pages/_completed.scss */
+.completed__textcontents {
+  font-size: 1.2em;
+}
+/* line 7, ../sass/_module/_pages/_completed.scss */
+.completed h3 {
+  margin: 0px;
+  font-weight: bold;
+}
+/* line 11, ../sass/_module/_pages/_completed.scss */
+.completed__left {
+  padding: 10px 25px;
+}
+/* line 14, ../sass/_module/_pages/_completed.scss */
+.completed__right {
+  text-align: right;
+  padding: 10px 25px;
+}
+/* line 18, ../sass/_module/_pages/_completed.scss */
+.completed a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* line 23, ../sass/_module/_pages/_completed.scss */
+.completed__hr {
+  border-top: 2px solid #E3E7E8;
+  margin-top: 0px;
 }
 
 /* line 1, ../sass/_module/_pages/_allmember.scss */
@@ -462,4 +560,3 @@
 .content-circle .memb-name {
   font-weight: bold;
 }
-
