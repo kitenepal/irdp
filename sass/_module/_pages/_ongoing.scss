@@ -6,7 +6,7 @@
 		font-weight: bold;
 	}
 	&__left{
-		padding: 10px 25px;
+		padding: 10px 15px;
 	}
 	&__right{
 		text-align: right;
@@ -24,5 +24,9 @@
 		border-top: 2px solid $secondary-color;
 		margin-top: 0px;
 	}
+	.thumbnail{
+		border-radius: 0px;
+	}
 }
+
 
