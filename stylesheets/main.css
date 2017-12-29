@@ -87,24 +87,25 @@
 /* line 1, ../sass/_module/_about.scss */
 .md--carousel {
   z-index: 1;
+  margin-top: 50px;
 }
 
-/* line 4, ../sass/_module/_about.scss */
+/* line 5, ../sass/_module/_about.scss */
 .md--adjust {
   margin-top: 30px;
 }
 
-/* line 8, ../sass/_module/_about.scss */
+/* line 9, ../sass/_module/_about.scss */
 .about {
   position: relative;
   z-index: 0;
   background-color: #E3E7E8;
 }
-/* line 12, ../sass/_module/_about.scss */
+/* line 13, ../sass/_module/_about.scss */
 .about h1 {
   margin: 30px;
 }
-/* line 15, ../sass/_module/_about.scss */
+/* line 16, ../sass/_module/_about.scss */
 .about__button--white {
   border-radius: 0px;
   outline: none;
@@ -115,11 +116,11 @@
   background-color: #fff;
   color: #00796B;
 }
-/* line 25, ../sass/_module/_about.scss */
+/* line 26, ../sass/_module/_about.scss */
 .about__button--white:hover {
   background-color: #E3E7E8;
 }
-/* line 28, ../sass/_module/_about.scss */
+/* line 29, ../sass/_module/_about.scss */
 .about__button--green {
   border-radius: 0px;
   outline: none;
@@ -130,16 +131,16 @@
   background-color: #00796B;
   color: #E3E7E8;
 }
-/* line 38, ../sass/_module/_about.scss */
+/* line 39, ../sass/_module/_about.scss */
 .about__button--green:hover {
   background-color: #004c40;
 }
-/* line 41, ../sass/_module/_about.scss */
+/* line 42, ../sass/_module/_about.scss */
 .about .img-thumbnail {
   border-radius: 0px;
 }
 
-/* line 46, ../sass/_module/_about.scss */
+/* line 47, ../sass/_module/_about.scss */
 .skewed {
   background-color: #00796B;
   padding: 50px 0px;
@@ -148,23 +149,23 @@
   z-index: -1;
 }
 
-/* line 54, ../sass/_module/_about.scss */
+/* line 55, ../sass/_module/_about.scss */
 .skew-rev {
   transform: skew(0deg, -3deg);
 }
 
-/* line 59, ../sass/_module/_about.scss */
+/* line 60, ../sass/_module/_about.scss */
 .no-skew {
   margin-top: -50px;
   padding-bottom: 50px;
 }
 
-/* line 64, ../sass/_module/_about.scss */
+/* line 65, ../sass/_module/_about.scss */
 .section-paragraph {
   font-size: 1.2em;
 }
 
-/* line 68, ../sass/_module/_about.scss */
+/* line 69, ../sass/_module/_about.scss */
 .rev-text {
   color: #fff;
 }
